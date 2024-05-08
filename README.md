@@ -1,7 +1,9 @@
 # Protons E & E - Electronic & electrical solution company system
 <img  alt="xxxxxxxxx"  src="https://www.wovss.lk/wp-content/uploads/2017/11/slide-07.jpg">
 Welcome to Protons E&E! , Our comprehensive solution for electronic & electrical solution companies.
-## About Our Web Application :-
+
+## About Our Web Application:-
+
 We have devised a solution to develop a sophisticated web-based application, 
 granting customers the convenience of registering for our services directly through 
 the platform. In addition to accessing our services, customers will have the 
@@ -41,16 +43,18 @@ Before proceeding, make sure your device has Node.js installed. You can download
 1. Navigate to the BACKEND directory of the project.
 2. Run the following command to start the backend server:
 
-bash
+```bash
 npm run dev
-
+```
 
 ### Frontend Setup
 1. Navigate to the frontend directory.
 2. Since we ignore the node_modules in the repository, you need to install the necessary dependencies. Run the following command:
-bash
- npm i 
+```bash
+ npm i
+```
 
 3. Once the dependencies are installed, you can start the frontend by running:
-bash
+```bash
 npm start
+```
