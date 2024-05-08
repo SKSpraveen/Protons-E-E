@@ -77,38 +77,38 @@ const Em_add_empIntern_form = () =>{
 
     return(
         <Box>
-<div className="container">
+<div style={{marginTop:'50px'}} className="container">
             <h1 className='form_head' ><i>Add Intern</i></h1>
             <br />
 
             <form className="row g-3" >
         <div className="col-10">
-            <label for="inputName" className="form-label">Name</label>
+            <label for="inputName" style={{color:'#000000'}} className="form-label">Name</label>
             <Input type="text" className="form-control" id="name" value={name} onChange={(e) => setName(e.target.value)}/>
         </div>
          <div className="col-10">
-            <label for="inputItem" className="form-label">NIC</label>
+            <label for="inputItem"  style={{color:'#000000'}} className="form-label">NIC</label>
             <Input type="text" className="form-control" id="nic" value={nic} onChange={(e) => setNic(e.target.value)}/>
         </div>
         <div className="col-10">
-            <label for="inputDescription" className="form-label">Age</label>
-            <Input type="number" className="form-control" id="age" value={age} onChange={(e) => setAge(e.target.value)}/>
+            <label for="inputDescription"  style={{color:'#000000'}} className="form-label">Age</label>
+            <Input type="number" min='1' max='120' className="form-control" id="age" value={age} onChange={(e) => setAge(e.target.value)}/>
         </div>
         <div className="col-10">
-            <label for="inputPhoto" className="form-label">Email</label>
+            <label for="inputPhoto"  style={{color:'#000000'}} className="form-label">Email</label>
             <Input type="email" className="form-control" id="email" value={email} onChange={(e) => setEmail(e.target.value)}/>
         </div>
         <div className="col-md-5" style={{marginLeft:"4%"}}>
-            <label for="inputDiscount" className="form-label">Whatsapp Number</label>
+            <label for="inputDiscount" style={{color:'#000000'}} className="form-label">Whatsapp Number</label>
             <Input type="phone" className="form-control" id="wNumber" value={wNumber} onChange={(e) => setWnumber(e.target.value)}/>
         </div>
         
         <div className="col-md-5">
-            <label for="inputOldPrice" className="form-label">Contact Number</label>
+            <label for="inputOldPrice"  style={{color:'#000000'}} className="form-label">Contact Number</label>
             <Input type="phone" className="form-control" id="cNumber" value={cNumber} onChange={(e) => setCnumber(e.target.value)}/>
         </div>
         <div className="col-10">
-            <label for="inputNewPrice" className="form-label">Password</label>
+            <label for="inputNewPrice"  style={{color:'#000000'}} className="form-label">Password</label>
             <Input type="password" className="form-control" id="inputNewPrice" value={password} onChange={(e) => setPassword(e.target.value)}/>
         </div>
        
