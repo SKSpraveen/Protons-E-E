@@ -56,6 +56,7 @@ function Em_add_emp() {
 
     return (
         <Box className="body1">
+            <br/>
             <div className="btn-group" role="group" aria-label="Basic example">
                 <button
                     type="button"
