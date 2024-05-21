@@ -51,6 +51,10 @@ const StaffLogin2 = () => {
                   
                   navigate("/home");
                   break;
+            case "transportation Manager":
+                  
+                  navigate("/transportation");
+                  break;
             case "Payment Manager":
                   
                    navigate("/omdashboard");
